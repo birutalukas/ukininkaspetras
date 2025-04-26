@@ -1,7 +1,6 @@
 export default function () {
   document.querySelectorAll('.ajax-add-to-cart').forEach((button) => {
     button.addEventListener('click', async (e) => {
-      console.log('ADD TO CART CLICKED');
       e.preventDefault();
       const productID = button.value || button.getAttribute('data-product_id');
 
@@ -32,11 +31,9 @@ export default function () {
         // Parse the response as JSON
         const data = await response.json();
 
-        console.log(data);
         if (data.success) {
           const { product_id } = data.data;
 
-          console.log('Product ID added:', product_id);
           button.classList.remove('loading'); // Done loading
           button.classList.add('added'); // Done loading
 

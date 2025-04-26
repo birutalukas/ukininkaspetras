@@ -9,7 +9,6 @@ export default function () {
   const initializeAnimation = () => {
     const wrappers = document.querySelectorAll('[data-block-parallax="wrap"]');
 
-    console.log(wrappers);
     if (!wrappers) return;
 
     ScrollTrigger.getAll()
