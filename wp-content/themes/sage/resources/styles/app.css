@@ -6,6 +6,7 @@
 @import './woocommerce/cart.css';
 @import './woocommerce/checkout.css';
 @import './woocommerce/notices.css';
+@import './woocommerce/order-received.css';
 
 @tailwind base;
 @tailwind components;

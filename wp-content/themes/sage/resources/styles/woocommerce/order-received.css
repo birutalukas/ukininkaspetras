@@ -1,0 +1,52 @@
+.woocommerce-order-received {
+  .main {
+    @apply max-w-[58rem];
+    #page-header {
+      @apply pt-0 !mt-32;
+    }
+
+    .woocommerce-order {
+      .woocommerce-notice {
+        @apply font-[700];
+      }
+      .woocommerce-table--order-details {
+        @apply !border-none;
+
+        tbody {
+          .order_item {
+            .product-name {
+              a {
+                @apply !no-underline;
+              }
+            }
+          }
+        }
+        thead th,
+        tfoot td,
+        tfoot th,
+        td {
+          @apply !border-brown-200 !pl-0;
+        }
+      }
+
+      .woocommerce-order-overview {
+        @apply !pl-0;
+      }
+      .woocommerce-order-details {
+        @apply !mb-0 pt-10 md:pt-16;
+      }
+      .woocommerce-customer-details {
+        @apply !mb-0 pt-10 md:pt-16 pb-20 md:pb-32;
+        address {
+          @apply !border-none !p-0;
+          .woocommerce-customer-details--phone {
+            @apply !pl-0 before:!hidden !mb-0;
+          }
+          .woocommerce-customer-details--email {
+            @apply !pl-0 before:!hidden;
+          }
+        }
+      }
+    }
+  }
+}
