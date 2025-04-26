@@ -1,0 +1,113 @@
+header {
+  #header-bottom {
+    @apply h-[5.625rem] flex items-center justify-between;
+  }
+  .nav-primary {
+    @apply absolute left-[50%] translate-x-[-50%];
+    ul {
+      @apply w-full flex justify-center items-center gap-8;
+
+      li {
+        @apply py-8;
+        a {
+          @apply text-black text-lg  transition-colors duration-1000 ease-in-out;
+        }
+        &.current-menu-item {
+          @apply border-b-2 border-brown-400;
+        }
+      }
+    }
+  }
+  svg {
+    @apply w-6 h-auto transition-colors duration-1000 ease-in-out fill-black;
+  }
+  span {
+    @apply transition-colors duration-1000 ease-in-out text-black;
+  }
+  a {
+    @apply transition-colors duration-1000 ease-in-out text-black;
+  }
+  &.css-filled-header,
+  &.css-page-header {
+    ul {
+      li {
+        a {
+          @apply !text-black;
+        }
+      }
+    }
+    svg {
+      @apply fill-black;
+    }
+    span {
+      @apply text-black;
+    }
+    a {
+      @apply text-black;
+    }
+  }
+}
+
+.is-front-page {
+  header {
+    .nav-primary {
+      ul {
+        li {
+          a {
+            @apply text-white;
+          }
+          &.current-menu-item {
+            @apply border-white;
+          }
+        }
+      }
+    }
+    svg {
+      @apply fill-white;
+    }
+    span {
+      @apply text-white;
+    }
+    a {
+      @apply text-white;
+    }
+    &.css-filled-header {
+      .current-menu-item {
+        @apply !border-brown-200;
+      }
+      svg {
+        @apply fill-black;
+      }
+      span {
+        @apply text-black;
+      }
+      a {
+        @apply text-black;
+      }
+    }
+  }
+}
+
+.nav-footer {
+  ul {
+    li {
+      @apply mb-2;
+      a {
+        @apply pb-1 relative animation-underline no-underline;
+      }
+    }
+  }
+}
+footer {
+  .footer-social {
+    svg {
+      @apply w-8 h-auto transition-colors duration-1000 ease-in-out fill-black;
+    }
+  }
+  h4 {
+    @apply text-[2rem] leading-8;
+  }
+  h5 {
+    @apply text-[1.5rem] leading-6 mb-4 font-mulish font-[500];
+  }
+}

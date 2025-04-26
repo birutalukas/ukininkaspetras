@@ -1,0 +1,20 @@
+wp-config.php
+wp-content/*
+!wp-content/plugins
+!wp-content/mu-plugins
+!wp-content/themes
+!wp-content/languages
+
+# ai1wm-backups
+wp-content/ai1wm-backups
+wp-content/plugins/all-in-one-wp-migration/storage
+
+.vscode
+.htaccess
+*.config
+*.log
+robots.txt
+.user.ini
+
+.DS_Store
+/node_modules

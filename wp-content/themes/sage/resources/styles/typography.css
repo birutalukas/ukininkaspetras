@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+@import url('https://db.onlinewebfonts.com/c/c0c7e262b07e8f7d2bd87777a47e362f?family=Iskry+Regular');
+
+body {
+  @apply font-mulish text-base tracking-wider;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-iskry;
+}
+
+article {
+  h1,
+  h2 {
+    @apply text-[1.5rem] leading-6 sm:text-[2rem] md:text-[3rem] sm:leading-[3rem] md:leading-[4rem] mb-4 md:mb-8;
+  }
+  p + h1,
+  p + h2 {
+    @apply mt-8 md:mt-16;
+  }
+  h3,
+  h4 {
+    @apply font-[500] text-[1.5rem] leading-6 sm:text-[2rem] md:text-[2.5rem] sm:leading-[2.5rem] md:leading-[3rem] mb-2 md:mb-4;
+  }
+  p + h3,
+  p + h4 {
+    @apply mt-4 md:mt-8;
+  }
+  p {
+    @apply mb-4;
+  }
+  ul + p,
+  ol + p {
+    @apply mt-4;
+  }
+  ul {
+    @apply pl-4 md:pl-8 list-disc mt-4;
+    li {
+      @apply pl-2;
+    }
+  }
+  ol {
+    @apply pl-4 md:pl-8 list-decimal mt-4;
+    li {
+      @apply pl-2;
+    }
+  }
+  a {
+    @apply underline;
+  }
+}

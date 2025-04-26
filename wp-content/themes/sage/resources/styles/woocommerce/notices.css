@@ -1,0 +1,7 @@
+.woocommerce-info {
+  @apply border-brown-400;
+}
+
+.woocommerce-info::before {
+  @apply text-brown-400;
+}

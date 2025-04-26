@@ -1,0 +1,13 @@
+.woocommerce .products ul,
+.woocommerce ul.products {
+  @apply pb-32 m-0;
+}
+.wc-block-grid__products {
+}
+.wc-block-grid__products {
+  @apply !mb-0;
+}
+.wc-block-grid__products,
+.products-grid {
+  @apply !grid !grid-cols-1 sm:!grid-cols-2 lg:!grid-cols-3 !gap-8;
+}

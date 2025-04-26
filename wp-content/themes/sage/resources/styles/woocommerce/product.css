@@ -1,0 +1,47 @@
+.product {
+  .cart {
+    @apply mt-8;
+    .quantity {
+      @apply flex items-center justify-center gap-2 float-none;
+      .qty {
+        @apply h-14 w-14;
+      }
+      .qty-inc,
+      .qty-dec {
+        @apply border border border-brown-200 text-black h-14 w-14 aspect-square flex items-center justify-center;
+      }
+    }
+  }
+  .product_title {
+    @apply section-title;
+  }
+  .price {
+    @apply !text-xl !text-black;
+    del {
+      @apply text-black opacity-70;
+    }
+    ins {
+      @apply !no-underline;
+    }
+  }
+
+  .onsale {
+    @apply !absolute !left-8 !top-8 !rounded-none !bg-brown-50 !px-8 !text-black;
+  }
+}
+.woocommerce-product-gallery {
+  @apply !w-full overflow-hidden;
+
+  .woocommerce-product-gallery__wrapper {
+    @apply !h-full !aspect-square;
+    > div {
+      @apply !h-full;
+    }
+    a {
+      @apply !h-full;
+      img {
+        @apply !h-full !object-cover;
+      }
+    }
+  }
+}

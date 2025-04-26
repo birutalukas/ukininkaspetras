@@ -1,0 +1,155 @@
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='tel'],
+.product input[type='number'],
+textarea {
+  @apply w-full h-14 !rounded-none !bg-brown-50 !border-brown-400 !border-b !border-t-0 !border-r-0 !border-l-0 !outline-none !px-0 text-base;
+}
+input[type='number'].qty {
+  @apply border-none;
+}
+/* Chrome, Safari, Edge, Opera */
+input[type='number'].qty::-webkit-inner-spin-button,
+input[type='number'].qty::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'].qty {
+  -moz-appearance: textfield;
+}
+
+.wc-block-components-form .wc-block-components-text-input.has-error input:focus,
+.wc-block-components-text-input.has-error input:focus {
+  @apply !shadow-none;
+}
+
+.wc-block-checkout__add-note textarea {
+  @apply !min-h-[10rem] !h-auto !resize-none focus:shadow-none text-base;
+}
+
+/* TomSelect */
+
+/* Apply Tailwind classes directly via JS or style globally */
+.ts-wrapper {
+  @apply !px-0 w-full border border-brown-200 bg-brown-50 shadow-sm  transition duration-200;
+}
+
+.ts-control {
+  @apply bg-transparent text-black cursor-pointer placeholder:text-brown-200;
+}
+
+.ts-control input {
+  @apply text-brown-400;
+}
+
+.ts-dropdown {
+  @apply bg-white border border-brown-200  shadow-lg z-[100] relative overflow-y-auto h-[12rem];
+}
+
+.ts-dropdown .ts-dropdown-content {
+  @apply divide-y divide-brown-50;
+}
+
+.ts-dropdown .ts-dropdown-content .option {
+  @apply py-2 px-4 text-sm text-brown-400 cursor-pointer hover:bg-brown-50;
+}
+
+.ts-dropdown .ts-dropdown-content .option.selected,
+.ts-dropdown .ts-dropdown-content .option.active {
+  @apply bg-brown-50 font-medium;
+}
+
+/* Hide native select after TomSelect is initialized */
+select.tomselected {
+  @apply hidden; /* Tailwind way */
+  display: none !important;
+}
+
+/* Optionally hide Woo's dropdown expand icon */
+.wc-blocks-components-select__expand {
+  display: none !important;
+}
+
+.wc-blocks-components-select {
+  .wc-blocks-components-select__select {
+    @apply !border-0 !shadow-none;
+
+    &.dropdown-active {
+      @apply !border-0 !shadow-none;
+    }
+    &.focus {
+      @apply !border-0 !shadow-none;
+    }
+    &.input-active {
+      @apply !border-0 !shadow-none;
+    }
+  }
+  .wc-blocks-components-select__container {
+    @apply !rounded-none !border-none !h-auto !bg-brown-50 border-0;
+  }
+}
+
+/* Mailerlite */
+footer {
+  #mlb2-25215253.ml-form-embedContainer
+    .ml-form-embedWrapper
+    .ml-form-embedBody,
+  #mlb2-25215253.ml-form-embedContainer
+    .ml-form-embedWrapper
+    .ml-form-successBody {
+    @apply !p-0;
+  }
+
+  #mlb2-25215253.ml-form-embedContainer .ml-form-embedWrapper {
+    @apply !bg-transparent;
+  }
+
+  .ml-form-embedSubmit {
+    @apply !m-0;
+  }
+
+  #mlb2-25215253.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+    @apply !max-w-full;
+  }
+
+  #mlb2-25215253.ml-form-embedContainer
+    .ml-form-embedWrapper
+    .ml-form-embedBody
+    .ml-form-fieldRow
+    input {
+    @apply !bg-brown-200 !h-14;
+  }
+
+  #mlb2-25215253.ml-form-embedContainer
+    .ml-form-embedWrapper
+    .ml-form-embedBody
+    .ml-form-embedContent
+    h4,
+  h4 {
+    @apply !font-mulish text-[1.5rem] md:text-[2rem] leading-[1.5rem] md:leading-[2rem] mb-6;
+  }
+
+  #mlb2-25215253.ml-form-embedContainer
+    .ml-form-embedWrapper
+    .ml-form-embedBody
+    .ml-form-embedContent
+    p,
+  #mlb2-25215253.ml-form-embedContainer
+    .ml-form-embedWrapper
+    .ml-form-successBody
+    .ml-form-successContent
+    p {
+    @apply !text-base !font-mulish;
+  }
+
+  #mlb2-25215253.ml-form-embedContainer
+    .ml-form-embedWrapper
+    .ml-form-embedBody
+    .ml-form-embedSubmit
+    button {
+    @apply !text-brown-200 !font-bold !h-14;
+  }
+}
