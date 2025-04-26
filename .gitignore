@@ -9,6 +9,11 @@ wp-content/*
 wp-content/ai1wm-backups
 wp-content/plugins/all-in-one-wp-migration/storage
 
+
+wp-content/wflogs
+wordfence-waf.php
+.htaccess.bk
+
 .vscode
 .htaccess
 *.config
