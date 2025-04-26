@@ -21,7 +21,7 @@
 
     <div class="absolute left-0 bottom-14 sm:inset-0 flex justify-center items-center text-left sm:text-center z-30">
         <div class="container">
-            <h1 class="text-[2.5rem] leading-[3rem] sm:text-[3.5rem]  sm:leading-[4rem] text-white uppercase">
+            <h1 class="text-[2.5rem] leading-[3rem] sm:text-[3.5rem]  sm:leading-[4rem] md:text-[4rem]  md:leading-[4.5rem] text-white uppercase">
                 {!!  $title !!}
             </h1>
         </div>

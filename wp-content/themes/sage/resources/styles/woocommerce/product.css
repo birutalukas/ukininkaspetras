@@ -30,18 +30,21 @@
   }
 }
 .woocommerce-product-gallery {
-  @apply !w-full overflow-hidden;
+  @apply !w-full overflow-hidden relative aspect-square;
 
   .woocommerce-product-gallery__wrapper {
-    @apply !h-full !aspect-square;
     > div {
       @apply !h-full;
     }
     a {
       @apply !h-full;
       img {
-        @apply !h-full !object-cover;
+        @apply !h-full !object-cover aspect-square;
       }
     }
+  }
+  .flex-control-nav.flex-control-thumbs {
+    /* @apply absolute bottom-6 w-full flex justify-center; */
+    @apply hidden;
   }
 }
