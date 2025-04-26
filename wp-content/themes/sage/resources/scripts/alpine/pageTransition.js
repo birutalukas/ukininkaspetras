@@ -19,10 +19,14 @@ export default () => ({
   },
   clickHandler(e) {
     const link = e.target.closest('a');
+
+    const isGallery = e.target.closest('.woocommerce-product-gallery');
+
     if (
       link &&
       link.hostname === window.location.hostname &&
-      !link.hasAttribute('target')
+      !link.hasAttribute('target') &&
+      !isGallery
     ) {
       e.preventDefault();
       this.leave(link.href);
