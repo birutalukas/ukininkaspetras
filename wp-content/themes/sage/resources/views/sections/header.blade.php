@@ -3,7 +3,7 @@
   :class="{
     'translate-y-[-100%]' : isScrollingDown,
     'bg-brown-50 shadow-sm border-b-[1px] css-filled-header' : isHeaderFilled,
-    '-mt-16' :  {{ is_cart() ? 1 : 0 }} || {{ is_checkout() ? 1 : 0 }} || {{ get_page_template_slug() === 'template-text-content.blade.php' }} || isScrolled,
+    '-mt-16' :  {{ is_cart() ? 1 : 0 }} || {{ is_checkout() ? 1 : 0 }} || {{ get_page_template_slug() === 'template-text-content.blade.php' ? 1 : 0  }} || isScrolled,
   }"
   :style="{
   borderBottomWidth: isHeaderFilled ? '1px' : '0px',
