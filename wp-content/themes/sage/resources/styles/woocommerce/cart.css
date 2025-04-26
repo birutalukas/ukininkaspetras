@@ -27,7 +27,16 @@ table.wc-block-cart-items .wc-block-cart-items__header,
 .wc-block-components-sidebar-layout .wc-block-components-totals-item__label {
   @apply !text-xl !font-bold;
 }
-
+.wc-block-cart-item__wrap {
+  .wc-block-components-product-badge {
+    @apply hidden md:block w-fit !rounded-none !min-h-[1.5rem];
+  }
+}
+.wc-block-cart-item__total-price-and-sale-badge-wrapper {
+  .wc-block-components-product-badge {
+    @apply !hidden lg:!block !rounded-none !min-h-[1.5rem];
+  }
+}
 .wc-block-cart-items__row {
   @apply relative;
 

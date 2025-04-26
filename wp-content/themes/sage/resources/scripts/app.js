@@ -15,7 +15,7 @@ domReady(async () => {
   smoothScroll();
   ajaxAddToCart();
   checkout();
-  console.log('V1');
+  console.log('v1.0.0');
 });
 
 /**
