@@ -8,7 +8,7 @@
       }
       .qty-inc,
       .qty-dec {
-        @apply border border border-brown-200 text-black h-14 w-14 aspect-square flex items-center justify-center;
+        @apply border border border-brown-200 text-black h-14 w-14 aspect-square flex items-center justify-center hover:bg-brown-200 hover:border-brown-400 transition-all duration-500;
       }
     }
   }
