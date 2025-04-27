@@ -4,6 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
+
+    <?php if (defined('WP_ENV') && WP_ENV == 'production') : ?>
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWKXFW9VEC"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-YWKXFW9VEC');
+      </script>
+
+    <?php endif; ?>
+
   </head>
 
   <body <?php body_class(); ?>>
