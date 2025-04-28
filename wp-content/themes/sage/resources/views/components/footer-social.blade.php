@@ -15,9 +15,10 @@
             @include('svg.icon-youtube')
         </a>
     @endif
+
     @if ( !empty( $social['patreon'] ) )
         <a href="{{ $social['patreon'] }}" class="transition-all ease-in-out duration-500 hover:opacity-75 hover:scale-125" target="_blank" rel="noopener noreferrer">
-            @include('svg.patreon')
+            @include('svg.icon-patreon')
         </a>
     @endif
 

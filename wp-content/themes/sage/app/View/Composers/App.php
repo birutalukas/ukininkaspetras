@@ -52,12 +52,13 @@ class App extends Composer
         if (!$group) {
             return [];
         }
-
+        
         return [
             'facebook' => $group['facebook_link'] ?? '',
             'instagram' => $group['instagram_link'] ?? '',
             'youtube' => $group['youtube_link'] ?? '',
             'patreon' => $group['patreon_link'] ?? '',
+            'contribee' => $group['contribee_link'] ?? '',
         ];
         
     }
