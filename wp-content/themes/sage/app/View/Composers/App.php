@@ -25,7 +25,7 @@ class App extends Composer
         return [
             'siteName' => $this->siteName(),
             'social' => $this->getSocial(),
-            'info'   => $this->getInfo(),        
+            'info'   => $this->getInfo(),                    
         ];
     }
 
@@ -57,6 +57,7 @@ class App extends Composer
             'facebook' => $group['facebook_link'] ?? '',
             'instagram' => $group['instagram_link'] ?? '',
             'youtube' => $group['youtube_link'] ?? '',
+            'patreon' => $group['patreon_link'] ?? '',
         ];
         
     }

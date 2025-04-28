@@ -14,7 +14,7 @@
     <a href="{{ get_permalink($product_id) }}" class="block aspect-square w-full relative overflow-hidden" data-image-parallax="wrap">
         <div class="w-full h-[120%] group-hover:scale-110 transition-all duration-500 overflow-hidden relative">
             <img 
-                src="{{ get_the_post_thumbnail_url($product_id, 'medium') }}" 
+                src="{{ get_the_post_thumbnail_url($product_id, 'large') }}" 
                 alt="{{ $product->get_name() }}" 
                 class="w-full !h-[120%] object-cover absolute -top-[10%] left-0 z-10 "
                 data-image-parallax="image"

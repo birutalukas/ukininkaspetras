@@ -68,7 +68,7 @@ table.wc-block-cart-items .wc-block-cart-items__header,
   }
   .wc-block-components-quantity-selector
     .wc-block-components-quantity-selector__button {
-    @apply !rounded-none w-8 h-8 flex items-center justify-center !outline  !outline-brown-200 focus:outline-brown-400 focus:shadow-none;
+    @apply !rounded-none w-8 h-8 flex items-center justify-center !outline  !outline-brown-200 focus:outline-brown-400 focus:shadow-none hover:bg-brown-200 hover:!outline-brown-400 transition-all duration-500;
   }
   .wc-block-components-quantity-selector:after {
     @apply hidden;

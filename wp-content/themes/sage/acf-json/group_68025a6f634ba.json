@@ -185,6 +185,24 @@
                     "default_value": "",
                     "allow_in_bindings": 0,
                     "placeholder": ""
+                },
+                {
+                    "key": "field_680efc7fc2dd8",
+                    "label": "Contribee Link",
+                    "name": "contribee_link",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": ""
                 }
             ]
         }
@@ -207,5 +225,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1745649381
+    "modified": 1745812625
 }
