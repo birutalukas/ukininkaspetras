@@ -1,6 +1,9 @@
 export default function () {
   document.addEventListener('click', async (e) => {
     const button = e.target.closest('.ajax-add-to-cart');
+    const isCartPage = e.target.closest('.woocommerce-cart');
+
+    console.log(isCartPage);
     if (!button) return; // Not a cart button, ignore
 
     e.preventDefault();
@@ -41,6 +44,11 @@ export default function () {
             detail: { button },
           })
         );
+
+        if (isCartPage) {
+          jQuery(document.body).trigger('added_to_cart');
+          jQuery(document.body).trigger('wc_fragment_refresh');
+        }
       }
     } catch (error) {
       console.error('AJAX Add to Cart Error:', error);

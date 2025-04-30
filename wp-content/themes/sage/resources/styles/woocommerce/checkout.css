@@ -130,3 +130,20 @@
 .wc-block-checkout__add-note .wc-block-components-textarea {
   @apply focus:!shadow-none;
 }
+
+.wc-block-components-radio-control--highlight-checked {
+  &:after {
+    @apply !border-none !border-0;
+  }
+}
+.wc-block-checkout__payment-method
+  .wc-block-components-radio-control-accordion-option:last-child:after,
+.wc-block-checkout__payment-method
+  .wc-block-components-radio-control__option:last-child:after {
+  @apply !hidden;
+}
+
+.wc-block-components-radio-control--highlight-checked
+  div.wc-block-components-radio-control-accordion-option:after {
+  @apply !hidden;
+}
