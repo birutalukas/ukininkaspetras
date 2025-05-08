@@ -6,6 +6,9 @@
     @apply !mt-0;
   }
 }
+#wc-guest-checkout-notice {
+  @apply !hidden;
+}
 .wc-block-components-sidebar-layout {
   @apply !m-0;
 
