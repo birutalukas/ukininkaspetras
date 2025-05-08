@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-04-26 07:48+0000\n"
+"PO-Revision-Date: 2025-05-08 09:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-26 07:38+0000\n"
 "Last-Translator: \n"
-"X-Loco-Version: 2.7.2; wp-6.8"
+"X-Loco-Version: 2.7.2; wp-6.8.1"
 
 #. translators: no need to translate it. It's a link.
 #: src/Admin/Features/LaunchYourStore.php:198
@@ -4136,7 +4136,7 @@ msgstr ""
 #: assets/client/blocks/cart.js:21 assets/client/blocks/checkout.js:19
 #: assets/client/blocks/wc-cart-checkout-base-frontend.js:31
 msgid "Add a coupon"
-msgstr ""
+msgstr "Sukurti nuolaidą"
 
 #: assets/client/admin/components/index.js:2
 msgid "Add a filter"
@@ -4165,7 +4165,7 @@ msgstr ""
 #: assets/client/blocks/checkout-blocks/order-note-frontend.js:1
 #: assets/client/blocks/checkout.js:19
 msgid "Add a note to your order"
-msgstr ""
+msgstr "Pridėti pastabą prie užsakymo"
 
 #: assets/client/blocks/wc-shipping-method-pickup-location.js:83
 msgid "Add a price for customers who choose local pickup"
@@ -9572,7 +9572,7 @@ msgstr ""
 #: assets/client/blocks/inner-blocks/checkout-contact-information-block/block.json
 msgctxt "block title"
 msgid "Contact Information"
-msgstr ""
+msgstr "Kontaktinė informacija"
 
 #: assets/client/blocks/inner-blocks/cart-order-summary-coupon-form-block/block.json
 #: assets/client/blocks/inner-blocks/checkout-order-summary-coupon-form-block/block.json
@@ -9808,7 +9808,7 @@ msgstr "Puslapiavimas"
 #: assets/client/blocks/inner-blocks/checkout-payment-block/block.json
 msgctxt "block title"
 msgid "Payment Options"
-msgstr ""
+msgstr "Apmokėjimo pasirinkimai"
 
 #: assets/client/blocks/inner-blocks/checkout-pickup-options-block/block.json
 msgctxt "block title"
@@ -13774,7 +13774,7 @@ msgstr "Vartotojo slaptasis kodas yra klaidingas"
 #: assets/client/blocks/checkout-blocks/contact-information-frontend.js:2
 #: assets/client/blocks/checkout.js:19
 msgid "Contact information"
-msgstr ""
+msgstr "Kontaktinė informacija"
 
 #: assets/client/admin/wp-admin-scripts/wc-addons-tour.js:2
 msgid "Contact support"
@@ -16676,7 +16676,7 @@ msgstr ""
 #: assets/client/blocks/checkout-blocks/shipping-method-frontend.js:1
 #: assets/client/blocks/checkout.js:37 assets/client/blocks/checkout.js:42
 msgid "Delivery"
-msgstr ""
+msgstr "Pristatymas"
 
 #: includes/shipping/legacy-local-delivery/class-wc-shipping-legacy-local-delivery.php:158
 msgid "Delivery fee"
@@ -19936,7 +19936,7 @@ msgstr ""
 #: assets/client/blocks/cart.js:21 assets/client/blocks/checkout.js:19
 #: assets/client/blocks/wc-cart-checkout-base-frontend.js:31
 msgid "Enter code"
-msgstr ""
+msgstr "Įveskite kodą"
 
 #. translators: %s = cost value (formatted as currency)
 #: includes/admin/views/html-bulk-edit-product.php:94
@@ -20008,7 +20008,7 @@ msgstr ""
 #: assets/client/blocks/checkout-blocks/billing-address-frontend.js:1
 #: assets/client/blocks/checkout.js:19
 msgid "Enter the billing address that matches your payment method."
-msgstr ""
+msgstr "Įveskite adresą prekėms išsiųsti."
 
 #: assets/client/blocks/checkout-blocks/billing-address-frontend.js:1
 #: assets/client/blocks/checkout.js:19
@@ -22193,7 +22193,7 @@ msgstr "Francisco Morazán"
 #: assets/client/blocks/wc-cart-checkout-base-frontend.js:34
 #: assets/client/blocks/wc-shipping-method-pickup-location.js:83
 msgid "Free"
-msgstr "Nemokami"
+msgstr "Nemokamai"
 
 #: assets/client/blocks/checkout-blocks/pickup-options-frontend.js:1
 #: assets/client/blocks/checkout-blocks/shipping-method-frontend.js:1
@@ -38273,7 +38273,7 @@ msgstr "%1$s: apmokėjimas pavyko. Auth ID: %2$s, Transaction ID: %3$s"
 #: assets/client/blocks/checkout-blocks/payment-frontend.js:1
 #: assets/client/blocks/checkout.js:37
 msgid "Payment options"
-msgstr ""
+msgstr "Apmokėjimo pasirinkimai"
 
 #. translators: %s: pending reason.
 #. translators: 1: Pending reason
@@ -45023,7 +45023,7 @@ msgstr "Išsaugoti"
 #: assets/client/blocks/mini-cart-contents.js:11
 #: assets/client/blocks/wc-cart-checkout-base-frontend.js:7
 msgid "Save %s"
-msgstr ""
+msgstr "- %s"
 
 #: templates/myaccount/form-edit-address.php:46
 msgid "Save address"
@@ -47499,12 +47499,12 @@ msgstr[2] ""
 #: assets/client/blocks/checkout-blocks/shipping-methods-frontend.js:1
 #: assets/client/blocks/checkout.js:41
 msgid "Shipping options"
-msgstr ""
+msgstr "Pristatymo pasirinkimai"
 
 #: assets/client/blocks/checkout-blocks/shipping-method-frontend.js:1
 #: assets/client/blocks/checkout-blocks/shipping-method-style.js:1
 msgid "Shipping options are not available"
-msgstr ""
+msgstr "Pristatymo pasirinkimai nepasiekiami"
 
 #: templates/cart/cart-shipping.php:54
 msgid "Shipping options will be updated during checkout."
@@ -61014,7 +61014,7 @@ msgstr ""
 #: assets/client/blocks/checkout-blocks/contact-information-frontend.js:2
 #: assets/client/blocks/checkout.js:19
 msgid "We'll use this email to send you details and updates about your order."
-msgstr ""
+msgstr "Šį el. pašto adresą naudosime informacijai apie uždakymą siųsti."
 
 #: assets/client/admin/chunks/7726.js:1
 msgid ""

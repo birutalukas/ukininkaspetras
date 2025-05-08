@@ -4,6 +4,10 @@
   .is-large.wc-block-cart {
     @apply !mb-0;
   }
+
+  .wp-block-woocommerce-cart-order-summary-shipping-block {
+    @apply !hidden;
+  }
 }
 table.wc-block-cart-items {
   @apply !mb-0;

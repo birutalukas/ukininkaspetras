@@ -112,13 +112,19 @@
 }
 /* Payment Options */
 
-.wc-block-components-radio-control-accordion-option {
-  @apply border !border-brown-200 !rounded-none;
+.wc-block-components-radio-control-accordion-option,
+.wc-block-components-radio-control__option {
+  @apply border !border-brown-200 !rounded-none !shadow-none;
   &.wc-block-components-radio-control-accordion-option--checked-option-highlighted {
     @apply !border-brown-400 !shadow-none;
   }
+  &.wc-block-components-radio-control__option-checked {
+    @apply !border-brown-400 !shadow-none;
+  }
 }
-
+.choices__inner {
+  @apply border !border-brown-400 !rounded-none !bg-transparent h-[3.375rem] !px-4 !flex !items-center;
+}
 /* Labels  */
 
 .wc-block-components-form .wc-block-components-text-input label,

@@ -4,7 +4,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 export const lenis = new Lenis({
   lerp: 0.1,
-  prevent: (node) => node.classList.contains('ts-dropdown'),
+  prevent: (node) =>
+    node.classList.contains('ts-dropdown') ||
+    node.classList.contains('choices__list'),
 });
 export const smoothScroll = () => {
   gsap.registerPlugin(ScrollTrigger);
