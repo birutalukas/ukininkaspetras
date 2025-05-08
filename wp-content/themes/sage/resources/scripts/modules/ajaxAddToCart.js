@@ -3,7 +3,6 @@ export default function () {
     const button = e.target.closest('.ajax-add-to-cart');
     const isCartPage = e.target.closest('.woocommerce-cart');
 
-    console.log(isCartPage);
     if (!button) return; // Not a cart button, ignore
 
     e.preventDefault();

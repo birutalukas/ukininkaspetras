@@ -12,7 +12,6 @@ export default () => ({
 
   handleScroll() {
     const currentScroll = window.scrollY;
-    console.log('Current:', currentScroll, 'Last:', this.lastScroll);
 
     if (currentScroll > 100) {
       this.isScrollingDown = currentScroll > this.lastScroll;
