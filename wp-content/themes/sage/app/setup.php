@@ -163,3 +163,7 @@ add_filter('woocommerce_blocks_product_grid_item_html', function ($html, $data, 
     // $product is a WC_Product object
     return view('woocommerce.product-card', ['product' => $product])->render();
 }, 10, 3);
+
+add_filter('woocommerce_get_availability_text', function($availability, $product) {
+    return str_replace(' (galime užsakyti)', '', $availability);
+}, 10, 2);
