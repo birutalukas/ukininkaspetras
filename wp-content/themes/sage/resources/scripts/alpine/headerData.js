@@ -12,11 +12,13 @@ export default () => ({
 
   handleScroll() {
     const currentScroll = window.scrollY;
+    console.log('Current:', currentScroll, 'Last:', this.lastScroll);
 
-    this.isScrollingDown = currentScroll > this.lastScroll;
-    this.isHeaderFilled = currentScroll >= 50;
-    this.isScrolled = currentScroll >= 50;
-
+    if (currentScroll > 100) {
+      this.isScrollingDown = currentScroll > this.lastScroll;
+      this.isHeaderFilled = currentScroll >= 150;
+      this.isScrolled = currentScroll >= 150;
+    }
     this.lastScroll = currentScroll;
   },
 
